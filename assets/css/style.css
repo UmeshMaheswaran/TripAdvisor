@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #ffffff8f;
+  font-family: TS-Reg, sans-serif;
+}
+
+/* HEADER */
+header {
+  border-bottom: 1px solid #dfdfdf;
+  height: 59px;
+}
+
+img {
+  margin: auto;
+  height: 120px;
+  padding-left: 340px;
+}
