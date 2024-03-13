@@ -80,9 +80,37 @@ main.container section {
 
 /* les 3 images */
 
-.pictures {
-  height: 40px;
+.tokyo {
+  display: flex;
+  height: 400px;
   margin-bottom: 100px;
   display: flex;
   gap: 2px;
+}
+.test {
+  border: 1px solid red;
+  height: 480px;
+  display: flex;
+}
+
+.colonne1 {
+  flex: 1;
+  background-color: orange;
+}
+.colonne1 > div > img {
+  height: 100%;
+  width: 100%;
+}
+.colonne2 {
+  width: 480px;
+  /* background-color: blue; */
+}
+
+.colonne2 > div {
+  /* border: 4px solid green; */
+  height: 50%;
+}
+.colonne2 > div > img {
+  height: 100%;
+  width: 100%;
 }
